@@ -4,3 +4,8 @@ class Punto:
         self.y = y
 
 p = Punto()
+print(p.x, p.y)
+q = Punto(5, 2.1)
+print(q.x, q.y)
+r = Punto(7)
+
