@@ -20,8 +20,8 @@ print(pa.ojoD, pa.ojoI, pa.high)
 
 class Max:
     def __init__(self, ladra):
-        self.ladra = ladra
+        self._ladra = ladra
 
 M = Max(True)
-print(M.ladra)
+print(M._ladra)
 
