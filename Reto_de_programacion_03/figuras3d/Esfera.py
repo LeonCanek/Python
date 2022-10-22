@@ -1,6 +1,5 @@
-from Reto_de_programacion_03.figuras2d.Punto import Punto
-from Reto_de_programacion_03.figuras3d.Punto3D import Punto3D
-from Reto_de_programacion_03.figuras2d.Circunferencia import Circunferencia
+from Reto_de_programacion_03 import Punto
+from Reto_de_programacion_03 import Circunferencia
 
 class Esfera(Circunferencia):
     def __init__(self, c, r):

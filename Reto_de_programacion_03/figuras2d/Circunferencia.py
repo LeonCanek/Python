@@ -1,4 +1,4 @@
-from Reto_de_programacion_03.figuras2d.Punto import Punto
+from Reto_de_programacion_03 import Punto
 class Circunferencia:
     def __init__(self, c=Punto(), r=1.0):
         self._c = c

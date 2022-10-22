@@ -22,6 +22,9 @@ class Punto:
     def __str__(self):
         return str(self._x) + "," + str(self._y)
 
+    # def saludar(x):
+    #     print("Holi Boli" , x)
+
 #
 # print(Punto(0, 0))
 # print(Punto(4, -7.35))

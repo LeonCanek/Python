@@ -1,4 +1,4 @@
-from Reto_de_programacion_03.figuras2d.Punto import Punto
+from Reto_de_programacion_03 import Punto
 class Punto3D(Punto):
     def __init__(self, x, y, z):
         super().__init__(x, y)
