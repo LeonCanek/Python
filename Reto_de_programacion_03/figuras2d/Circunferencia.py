@@ -31,7 +31,13 @@ class Circunferencia:
     def __str__(self):
         return "(" + str(self.x) + "," + str(self.y) + "):" + str(self.r)
 
-if _name_ == '_main_':
-    print(Circunferencia(Punto(0, 0), 1.0))
-    print(Circunferencia(Punto(1.01, 4.3), 6.2))
+# p=Punto()
+# print(p.x)
+# p=Circunferencia()
+# print(p._Circunferencia__c)
+
+
+# print(p.__c)
+# print(p._Punto__c)
+
 

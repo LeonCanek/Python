@@ -15,7 +15,4 @@ class Punto3D(Punto):
     def __str__(self):
         return str(self.x) + "," + str(self.y) + "," + str(self.z)
 
-    if _name_ == '_main_':
-        print(Punto3D(0, 0, 0))
-        print(Punto3D(4, -7.36, 0.14))
 
