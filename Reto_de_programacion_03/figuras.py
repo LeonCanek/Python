@@ -9,5 +9,4 @@ print(Punto())
 print(Circunferencia())
 print(Esfera(Punto3D(0, 0, 0), 1))
 
-# jijos no sabia nada de AMOR y ODIO
-# yep no lo sabia
+#...

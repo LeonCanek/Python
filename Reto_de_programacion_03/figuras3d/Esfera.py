@@ -5,10 +5,10 @@ from Reto_de_programacion_03.figuras2d.Circunferencia import Circunferencia
 class Esfera(Circunferencia):
     def __init__(self, c, r):
         super().__init__(Punto(c.x, c.y), r)
-        self.c = c
+        self._c = c
 
     def __str__(self):
-        return "(" + self.c.__str__() + "):" + str(self.r)
+        return "(" + self._c.__str__() + "):" + str(self.r)
 
 
 # print(Esfera(Punto3D(0, 0, 0), 1.0))
