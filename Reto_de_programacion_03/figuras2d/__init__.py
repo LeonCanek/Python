@@ -1,2 +1,2 @@
 from . import Punto
-from . import Circunferencia
+from Reto_de_programacion_03.figuras2d import Circunferencia
