@@ -10,14 +10,12 @@ class A(X, Y):
     pass
 
 
-class B(X, Y):
+class B(Y, X):
     pass
 
 
-class C():
+class C(A, B):
     pass
 
 
 print(C())
-
-#<__main__.C object at 0x000002770E5238E0>
